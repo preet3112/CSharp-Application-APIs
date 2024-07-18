@@ -27,7 +27,6 @@ This project is a simple To-Do API built using pure C#. It provides endpoints to
 
 - Create a new task
 - Retrieve all tasks
- - Update a task by ID
 - Delete a task by ID
 
 ## Technologies Used
@@ -122,29 +121,6 @@ This project is a simple To-Do API built using pure C#. It provides endpoints to
     "title": "New Task",
     "description": "This is a new task",
     "isComplete": false
-  }
-  ```
-
-#### Update a Task
-
-- **URL:** `/api/tasks/{id}`
-- **Method:** `PUT`
-- **Description:** Update an existing task by its ID.
-- **Request Body:**
-  ```json
-  {
-    "title": "Updated Task",
-    "description": "This is an updated task",
-    "isComplete": true
-  }
-  ```
-- **Response:**
-  ```json
-  {
-    "id": 1,
-    "title": "Updated Task",
-    "description": "This is an updated task",
-    "isComplete": true
   }
   ```
 
